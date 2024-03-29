@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-C6Dx7pxG.css",
+      "PackagePath": "staticwebassets/assets/AboutView-C6Dx7pxG.css"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-Tc4ppKFs.js",
+      "PackagePath": "staticwebassets/assets/AboutView-Tc4ppKFs.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-D6pr4OYR.css",
+      "PackagePath": "staticwebassets/assets/index-D6pr4OYR.css"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-e5kndZVC.js",
+      "PackagePath": "staticwebassets/assets/index-e5kndZVC.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.bookkeeping-app.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.bookkeeping-app.props",
+      "PackagePath": "build\\bookkeeping-app.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.bookkeeping-app.props",
+      "PackagePath": "buildMultiTargeting\\bookkeeping-app.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.bookkeeping-app.props",
+      "PackagePath": "buildTransitive\\bookkeeping-app.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
