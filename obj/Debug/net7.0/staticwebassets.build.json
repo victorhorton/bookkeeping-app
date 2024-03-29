@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ppVhMhpdIlY/88CO4WEfRO1/yXjbwH6hOg6FVoAswKU=",
+  "Hash": "2oJCKIb5rDTzXpO2+we3M57k+m4gsPXahr6K5VPRT/E=",
   "Source": "bookkeeping-app",
   "BasePath": "_content/bookkeeping-app",
   "Mode": "Default",
@@ -119,6 +119,40 @@
       "OriginalItemSpec": "wwwroot/assets/AboutView-Tc4ppKFs.js"
     },
     {
+      "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/BatchesView-C-hO3zrk.js",
+      "SourceId": "bookkeeping-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/",
+      "BasePath": "_content/bookkeeping-app",
+      "RelativePath": "assets/BatchesView-C-hO3zrk.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/BatchesView-C-hO3zrk.js"
+    },
+    {
+      "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/BatchesView-GMy-_AP_.js",
+      "SourceId": "bookkeeping-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/",
+      "BasePath": "_content/bookkeeping-app",
+      "RelativePath": "assets/BatchesView-GMy-_AP_.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/BatchesView-GMy-_AP_.js"
+    },
+    {
       "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/BatchesView-mojWIZ61.js",
       "SourceId": "bookkeeping-app",
       "SourceType": "Discovered",
@@ -134,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/BatchesView-mojWIZ61.js"
+    },
+    {
+      "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-B4l-wcmg.js",
+      "SourceId": "bookkeeping-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/",
+      "BasePath": "_content/bookkeeping-app",
+      "RelativePath": "assets/index-B4l-wcmg.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/index-B4l-wcmg.js"
     },
     {
       "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-B8nYCKxW.css",
@@ -168,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/index-B9ulCfij.js"
+    },
+    {
+      "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-BccYlJd6.css",
+      "SourceId": "bookkeeping-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/",
+      "BasePath": "_content/bookkeeping-app",
+      "RelativePath": "assets/index-BccYlJd6.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/index-BccYlJd6.css"
     },
     {
       "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-BLOeIcza.js",
@@ -221,6 +289,23 @@
       "OriginalItemSpec": "wwwroot/assets/index-BZfPOmvK.css"
     },
     {
+      "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-CeEGl3oG.js",
+      "SourceId": "bookkeeping-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/",
+      "BasePath": "_content/bookkeeping-app",
+      "RelativePath": "assets/index-CeEGl3oG.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/index-CeEGl3oG.js"
+    },
+    {
       "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-D6pr4OYR.css",
       "SourceId": "bookkeeping-app",
       "SourceType": "Discovered",
@@ -236,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/index-D6pr4OYR.css"
+    },
+    {
+      "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-DRUtbEfp.css",
+      "SourceId": "bookkeeping-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/",
+      "BasePath": "_content/bookkeeping-app",
+      "RelativePath": "assets/index-DRUtbEfp.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/index-DRUtbEfp.css"
     },
     {
       "Identity": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-e5kndZVC.js",

@@ -22,7 +22,27 @@ namespace bookkeeping_app.Controllers
         {
             return await _context.Batches.ToListAsync();
         }
+        [HttpPost]
+        public async Task<IActionResult> CreateBatch([FromBody] Batch batch)
+        {
+            if (batch == null)
+            {
+                return BadRequest("Batch data is null");
+            }
 
-        // Other CRUD actions...
+            try
+            {
+                // Perform any necessary processing (e.g., validation, saving to database)
+                // For demonstration purposes, assume saving to database
+                _context.Batches.Add(batch);
+                await _context.SaveChangesAsync();
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
     }
 }
