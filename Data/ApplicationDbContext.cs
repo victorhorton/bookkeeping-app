@@ -1,3 +1,4 @@
+using bookkeeping_app.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class ApplicationDbContext : DbContext

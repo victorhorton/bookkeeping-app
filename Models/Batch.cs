@@ -1,4 +1,5 @@
 // Models/User.cs
+namespace bookkeeping_app.Models;
 public enum BatchStatus
 {
     Pending,
