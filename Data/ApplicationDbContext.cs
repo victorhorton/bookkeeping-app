@@ -6,4 +6,6 @@ public class ApplicationDbContext : DbContext
         : base(options)
     {
     }
+
+    public DbSet<Batch> Batches{ get; set; }
 }
