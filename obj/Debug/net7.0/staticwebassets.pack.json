@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-BQ7ky4k3.js",
+      "PackagePath": "staticwebassets/assets/AboutView-BQ7ky4k3.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-BaiLSMXx.js",
+      "PackagePath": "staticwebassets/assets/AboutView-BaiLSMXx.js"
+    },
+    {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-C6Dx7pxG.css",
       "PackagePath": "staticwebassets/assets/AboutView-C6Dx7pxG.css"
     },
@@ -9,12 +17,32 @@
       "PackagePath": "staticwebassets/assets/AboutView-Tc4ppKFs.js"
     },
     {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-onONMvXi.js",
+      "PackagePath": "staticwebassets/assets/AboutView-onONMvXi.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-B8nYCKxW.css",
+      "PackagePath": "staticwebassets/assets/index-B8nYCKxW.css"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-B9ulCfij.js",
+      "PackagePath": "staticwebassets/assets/index-B9ulCfij.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-BLOeIcza.js",
+      "PackagePath": "staticwebassets/assets/index-BLOeIcza.js"
+    },
+    {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-D6pr4OYR.css",
       "PackagePath": "staticwebassets/assets/index-D6pr4OYR.css"
     },
     {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-e5kndZVC.js",
       "PackagePath": "staticwebassets/assets/index-e5kndZVC.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-kDjE8QQr.js",
+      "PackagePath": "staticwebassets/assets/index-kDjE8QQr.js"
     },
     {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/favicon.ico",
