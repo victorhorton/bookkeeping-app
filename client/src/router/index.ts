@@ -13,10 +13,16 @@ const router = createRouter({
     {
       path: '/batches',
       name: 'batches',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Batches/IndexView.vue')
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Batches/IndexView.vue')
+        },
+        {
+          path: 'new',
+          component: () => import('../views/Batches/NewView.vue')
+        }
+      ]
     }
   ]
 })
