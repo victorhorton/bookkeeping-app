@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { onMounted, ref } from 'vue'
+import axios from 'axios'
+
+const batches = ref([])
+
+onMounted(() => {
+  axios('/api/Batches').then((resp) => {
+    batches.value = resp.data
+  })
+})
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div>{{ batches }}</div>
 </template>
