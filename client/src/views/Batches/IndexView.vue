@@ -13,6 +13,10 @@ onMounted(() => {
 
 <template>
   <div class="container mx-auto">
-    <div v-for="batch in batches" :key="batch.id">{{ batch }}</div>
+    <div v-for="batch in batches" :key="batch.id" class="flex">
+      <div class="flex-1">{{ batch.id }}</div>
+      <div class="flex-1">{{ batch.name }}</div>
+      <div class="flex-1">{{ batch.status }}</div>
+    </div>
   </div>
 </template>
