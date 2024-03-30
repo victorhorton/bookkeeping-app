@@ -4,6 +4,7 @@ import { type Batch } from '@/types/batch'
 import axios from 'axios'
 import { onMounted, ref, type Ref } from 'vue'
 import { useRoute } from 'vue-router'
+import PrimaryButton from '@/components/utilities/PrimaryButton.vue'
 
 const route = useRoute()
 
@@ -32,7 +33,7 @@ function updateBatch() {
   <div class="container mx-auto">
     <form v-if="batch" @submit.prevent="updateBatch()">
       <input type="text" class="p-2 rounded-md border-2 border-black" v-model="batch.name" />
-      <button>Submit</button>
+      <PrimaryButton innerText="Submit" />
     </form>
     {{ batch }}
   </div>

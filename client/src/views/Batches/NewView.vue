@@ -22,7 +22,7 @@ function createNewBatch() {
   <div class="container mx-auto">
     <form @submit.prevent="createNewBatch()">
       <input type="text" class="p-2 rounded-md border-2 border-black" v-model="batch.name" />
-      <button>Submit</button>
+      <PrimaryButton innerText="Submit" />
     </form>
     {{ batch }}
   </div>
