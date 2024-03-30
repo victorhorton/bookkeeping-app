@@ -77,7 +77,8 @@ namespace bookkeeping_app.Controllers
             try
             {
                 // Update batch properties
-                existingBatch.Name = updatedBatch.Name; // Update other properties as needed
+                existingBatch.Name = updatedBatch.Name;
+                existingBatch.Status = updatedBatch.Status;
 
                 // Save changes to database
                 _context.Update(existingBatch);

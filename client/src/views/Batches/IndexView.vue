@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { onMounted, ref, type Ref } from 'vue'
 import axios from 'axios'
+import PrimaryButton from '@/components/utilities/PrimaryButton.vue'
+import type { Batch } from '@/types/batch'
 
 const batches: Ref<any> = ref([])
 
@@ -9,6 +11,11 @@ onMounted(() => {
     batches.value = resp.data
   })
 })
+
+function postBatch(batch: Batch) {
+  batch.status = 1
+  axios.put(`/api/batches/${batch.id}`, batch)
+}
 </script>
 
 <template>
@@ -24,6 +31,9 @@ onMounted(() => {
       <div class="flex-1">{{ batch.id }}</div>
       <div class="flex-1">{{ batch.name }}</div>
       <div class="flex-1">{{ batch.status }}</div>
+      <div class="flex-auto">
+        <PrimaryButton @click="postBatch(batch)" inner-text="Post Batch" />
+      </div>
     </div>
   </div>
 </template>
