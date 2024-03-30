@@ -92,5 +92,29 @@ namespace bookkeeping_app.Controllers
             }
         }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBatch(int id)
+        {
+            var batch = await _context.Batches.FindAsync(id);
+
+            if (batch == null)
+            {
+                return NotFound("Batch not found");
+            }
+
+            try
+            {
+                // Save changes to database
+                _context.Batches.Remove(batch);
+                await _context.SaveChangesAsync();
+
+                return NoContent(); // Return 204 No Content if update is successful
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }        
+
     }
 }

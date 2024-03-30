@@ -16,6 +16,15 @@ function postBatch(batch: Batch) {
   batch.status = 1
   axios.put(`/api/batches/${batch.id}`, batch)
 }
+
+function deleteBatch(id: Batch['id']) {
+  axios.delete(`/api/batches/${id}`).then((resp) => {
+    if (resp.status === 204) {
+      const idx = batches.value.findIndex((batch: Batch) => batch.id === id)
+      batches.value.splice(idx, 1)
+    }
+  })
+}
 </script>
 
 <template>
@@ -28,11 +37,14 @@ function postBatch(batch: Batch) {
       >
     </div>
     <div v-for="batch in batches" :key="batch.id" class="flex my-2">
+      <div class="flex-auto">
+        <PrimaryButton @click="postBatch(batch)" inner-text="Post Batch" />
+      </div>
       <div class="flex-1">{{ batch.id }}</div>
       <div class="flex-1">{{ batch.name }}</div>
       <div class="flex-1">{{ batch.status }}</div>
       <div class="flex-auto">
-        <PrimaryButton @click="postBatch(batch)" inner-text="Post Batch" />
+        <PrimaryButton @click="deleteBatch(batch.id)" inner-text="Delete Batch" />
       </div>
     </div>
   </div>
