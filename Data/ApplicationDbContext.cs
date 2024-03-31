@@ -9,5 +9,9 @@ public class ApplicationDbContext : DbContext
     {
     }
 
+    public DbSet<Account> Accounts{ get; set; }
     public DbSet<Batch> Batches{ get; set; }
+    public DbSet<Company> Companies{ get; set; }
+    public DbSet<Entry> Entries{ get; set; }
+    public DbSet<Transaction> Transactions{ get; set; }
 }
