@@ -32,7 +32,7 @@ function deleteBatch(id: Batch['id']) {
     <div class="flex justify-end">
       <RouterLink
         to="/batches/new"
-        class="bg-neutral-800 p-2 text-neutral-200 active:text-neutral-300 px-2 my-2 rounded-md"
+        class="bg-neutral-800 p-2 text-neutral-200 active:text-neutral-300 rounded-md"
         >New Batch</RouterLink
       >
     </div>
@@ -44,7 +44,14 @@ function deleteBatch(id: Batch['id']) {
       <div class="flex-1">{{ batch.name }}</div>
       <div class="flex-1">{{ batch.status }}</div>
       <div class="flex-auto">
-        <PrimaryButton @click="deleteBatch(batch.id)" inner-text="Delete Batch" />
+        <div class="flex-auto">
+          <RouterLink
+            :to="`/batches/edit/${batch.id}`"
+            class="bg-neutral-800 p-2 text-neutral-200 active:text-neutral-300 rounded-md"
+            >Edit</RouterLink
+          >
+        </div>
+        <PrimaryButton @click="deleteBatch(batch.id)" inner-text="Delete" />
       </div>
     </div>
   </div>

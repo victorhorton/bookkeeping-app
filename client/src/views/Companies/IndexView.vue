@@ -27,7 +27,7 @@ function deleteCompany(id: Company['id']) {
     <div class="flex justify-end">
       <RouterLink
         to="/companies/new"
-        class="bg-neutral-800 p-2 text-neutral-200 active:text-neutral-300 px-2 my-2 rounded-md"
+        class="bg-neutral-800 p-2 text-neutral-200 active:text-neutral-300 rounded-md"
         >New Company</RouterLink
       >
     </div>
@@ -35,7 +35,14 @@ function deleteCompany(id: Company['id']) {
       <div class="flex-1">{{ company.name }}</div>
       <div class="flex-1">{{ company.code }}</div>
       <div class="flex-auto">
-        <PrimaryButton @click="deleteCompany(company.id)" inner-text="Delete Company" />
+        <RouterLink
+          :to="`/companies/edit/${company.id}`"
+          class="bg-neutral-800 p-2 text-neutral-200 active:text-neutral-300 rounded-md"
+          >Edit</RouterLink
+        >
+      </div>
+      <div class="flex-auto">
+        <PrimaryButton @click="deleteCompany(company.id)" inner-text="Delete" />
       </div>
     </div>
   </div>
