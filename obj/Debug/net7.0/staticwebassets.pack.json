@@ -1,88 +1,52 @@
 {
   "Files": [
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-BQ7ky4k3.js",
-      "PackagePath": "staticwebassets/assets/AboutView-BQ7ky4k3.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-CCAMkwqM.js",
+      "PackagePath": "staticwebassets/assets/EditView-CCAMkwqM.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-BaiLSMXx.js",
-      "PackagePath": "staticwebassets/assets/AboutView-BaiLSMXx.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-L9afWUHJ.js",
+      "PackagePath": "staticwebassets/assets/EditView-L9afWUHJ.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-C6Dx7pxG.css",
-      "PackagePath": "staticwebassets/assets/AboutView-C6Dx7pxG.css"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-UEndGw4n.js",
+      "PackagePath": "staticwebassets/assets/EditView-UEndGw4n.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-Tc4ppKFs.js",
-      "PackagePath": "staticwebassets/assets/AboutView-Tc4ppKFs.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-BOAtZLAY.js",
+      "PackagePath": "staticwebassets/assets/IndexView-BOAtZLAY.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-_cy2ld5e.js",
-      "PackagePath": "staticwebassets/assets/AboutView-_cy2ld5e.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-DXoAzU-w.js",
+      "PackagePath": "staticwebassets/assets/IndexView-DXoAzU-w.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/AboutView-onONMvXi.js",
-      "PackagePath": "staticwebassets/assets/AboutView-onONMvXi.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-dfcHQiLi.js",
+      "PackagePath": "staticwebassets/assets/IndexView-dfcHQiLi.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/BatchesView-C-hO3zrk.js",
-      "PackagePath": "staticwebassets/assets/BatchesView-C-hO3zrk.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-1cgsPQNK.js",
+      "PackagePath": "staticwebassets/assets/NewView-1cgsPQNK.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/BatchesView-GMy-_AP_.js",
-      "PackagePath": "staticwebassets/assets/BatchesView-GMy-_AP_.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-BtCqX3aO.js",
+      "PackagePath": "staticwebassets/assets/NewView-BtCqX3aO.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/BatchesView-mojWIZ61.js",
-      "PackagePath": "staticwebassets/assets/BatchesView-mojWIZ61.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-DACLsgaK.js",
+      "PackagePath": "staticwebassets/assets/NewView-DACLsgaK.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-B4l-wcmg.js",
-      "PackagePath": "staticwebassets/assets/index-B4l-wcmg.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-Dtq1vmHR.js",
+      "PackagePath": "staticwebassets/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-Dtq1vmHR.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-B8nYCKxW.css",
-      "PackagePath": "staticwebassets/assets/index-B8nYCKxW.css"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-BtBY_pFu.js",
+      "PackagePath": "staticwebassets/assets/index-BtBY_pFu.js"
     },
     {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-B9ulCfij.js",
-      "PackagePath": "staticwebassets/assets/index-B9ulCfij.js"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-BLOeIcza.js",
-      "PackagePath": "staticwebassets/assets/index-BLOeIcza.js"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-BZfPOmvK.css",
-      "PackagePath": "staticwebassets/assets/index-BZfPOmvK.css"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-BccYlJd6.css",
-      "PackagePath": "staticwebassets/assets/index-BccYlJd6.css"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-Btr62z96.js",
-      "PackagePath": "staticwebassets/assets/index-Btr62z96.js"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-CeEGl3oG.js",
-      "PackagePath": "staticwebassets/assets/index-CeEGl3oG.js"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-D6pr4OYR.css",
-      "PackagePath": "staticwebassets/assets/index-D6pr4OYR.css"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-DRUtbEfp.css",
-      "PackagePath": "staticwebassets/assets/index-DRUtbEfp.css"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-e5kndZVC.js",
-      "PackagePath": "staticwebassets/assets/index-e5kndZVC.js"
-    },
-    {
-      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-kDjE8QQr.js",
-      "PackagePath": "staticwebassets/assets/index-kDjE8QQr.js"
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-DryAoALE.css",
+      "PackagePath": "staticwebassets/assets/index-DryAoALE.css"
     },
     {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/favicon.ico",
