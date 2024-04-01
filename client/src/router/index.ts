@@ -16,6 +16,7 @@ const router = createRouter({
       children: [
         {
           path: '',
+          name: 'batches',
           component: () => import('../views/Batches/IndexView.vue')
         },
         {
@@ -34,6 +35,7 @@ const router = createRouter({
       children: [
         {
           path: '',
+          name: 'accounts',
           component: () => import('../views/Accounts/IndexView.vue')
         },
         {
@@ -52,6 +54,7 @@ const router = createRouter({
       children: [
         {
           path: '',
+          name: 'companies',
           component: () => import('../views/Companies/IndexView.vue')
         },
         {
