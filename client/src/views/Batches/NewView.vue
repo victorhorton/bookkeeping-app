@@ -3,6 +3,7 @@ import router from '@/router'
 import { type NewBatch } from '@/types/batch'
 import axios from 'axios'
 import { ref, type Ref } from 'vue'
+import PrimaryButton from '@/components/utilities/PrimaryButton.vue'
 
 const batch: Ref<NewBatch> = ref({
   name: '',

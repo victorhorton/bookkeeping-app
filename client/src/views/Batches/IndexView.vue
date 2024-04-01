@@ -4,7 +4,7 @@ import axios from 'axios'
 import PrimaryButton from '@/components/utilities/PrimaryButton.vue'
 import type { Batch } from '@/types/batch'
 
-const batches: Ref<any> = ref([])
+const batches: Ref<Batch[]> = ref([])
 
 onMounted(() => {
   axios('/api/Batches').then((resp) => {

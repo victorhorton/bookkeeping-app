@@ -27,6 +27,42 @@ const router = createRouter({
           component: () => import('../views/Batches/EditView.vue')
         }
       ]
+    },
+    {
+      path: '/accounts',
+      name: 'accounts',
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Accounts/IndexView.vue')
+        },
+        {
+          path: 'new',
+          component: () => import('../views/Accounts/NewView.vue')
+        },
+        {
+          path: 'edit/:id',
+          component: () => import('../views/Accounts/EditView.vue')
+        }
+      ]
+    },
+    {
+      path: '/companies',
+      name: 'companies',
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Companies/IndexView.vue')
+        },
+        {
+          path: 'new',
+          component: () => import('../views/Companies/NewView.vue')
+        },
+        {
+          path: 'edit/:id',
+          component: () => import('../views/Companies/EditView.vue')
+        }
+      ]
     }
   ]
 })
