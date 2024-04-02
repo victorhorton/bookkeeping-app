@@ -26,7 +26,7 @@ namespace bookkeeping_app.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Batch>> GetBatch(int id)
         {
-            var batch = await _context.Batches.FindAsync(id);
+            var batch = await _context.Batches.Include(b => b.Transactions).ThenInclude(t => t.Entries).FirstOrDefaultAsync(i => i.Id == id);;
 
             if (batch == null)
             {
@@ -62,12 +62,13 @@ namespace bookkeeping_app.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateBatch(int id, [FromBody] Batch updatedBatch)
         {
+            
             if (id != updatedBatch.Id)
             {
                 return BadRequest("Batch ID mismatch");
             }
 
-            var existingBatch = await _context.Batches.FindAsync(id);
+            var existingBatch = await _context.Batches.Include(b => b.Transactions).FirstOrDefaultAsync(b => b.Id == id);
 
             if (existingBatch == null)
             {
@@ -80,8 +81,22 @@ namespace bookkeeping_app.Controllers
                 existingBatch.Name = updatedBatch.Name;
                 existingBatch.Status = updatedBatch.Status;
 
-                // Save changes to database
-                _context.Update(existingBatch);
+                // Update existing transaction entries
+                foreach (var transaction in updatedBatch.Transactions)
+                {
+                    var existingTransaction = existingBatch.Transactions.FirstOrDefault(t => t.Id == transaction.Id);
+                    if (existingTransaction != null)
+                    {
+                        existingTransaction.Date = transaction.Date;
+                        // Update other properties as needed
+                    }
+                    else
+                    {
+                        // Handle new transaction entries
+                        existingBatch.Transactions.Add(transaction);
+                    }
+                }
+
                 await _context.SaveChangesAsync();
 
                 return NoContent(); // Return 204 No Content if update is successful
