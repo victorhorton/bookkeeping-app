@@ -1,8 +1,40 @@
 {
   "Files": [
     {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-B4jb4GhK.js",
+      "PackagePath": "staticwebassets/assets/EditView-B4jb4GhK.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-BO5h6ECS.js",
+      "PackagePath": "staticwebassets/assets/EditView-BO5h6ECS.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-Bqmj9cTw.js",
+      "PackagePath": "staticwebassets/assets/EditView-Bqmj9cTw.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-C6IoD5fz.js",
+      "PackagePath": "staticwebassets/assets/EditView-C6IoD5fz.js"
+    },
+    {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-CCAMkwqM.js",
       "PackagePath": "staticwebassets/assets/EditView-CCAMkwqM.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-CYBVpwwG.js",
+      "PackagePath": "staticwebassets/assets/EditView-CYBVpwwG.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-C_tRJzM9.js",
+      "PackagePath": "staticwebassets/assets/EditView-C_tRJzM9.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-CovWIxsX.js",
+      "PackagePath": "staticwebassets/assets/EditView-CovWIxsX.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-Do30acvI.js",
+      "PackagePath": "staticwebassets/assets/EditView-Do30acvI.js"
     },
     {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-L9afWUHJ.js",
@@ -13,12 +45,76 @@
       "PackagePath": "staticwebassets/assets/EditView-UEndGw4n.js"
     },
     {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-jnE2B3Rz.js",
+      "PackagePath": "staticwebassets/assets/EditView-jnE2B3Rz.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-k4RLXuqq.js",
+      "PackagePath": "staticwebassets/assets/EditView-k4RLXuqq.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-y6FUnDU5.js",
+      "PackagePath": "staticwebassets/assets/EditView-y6FUnDU5.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/EditView-yEmK2RZE.js",
+      "PackagePath": "staticwebassets/assets/EditView-yEmK2RZE.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-4AmV3RPP.js",
+      "PackagePath": "staticwebassets/assets/IndexView-4AmV3RPP.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-B65q33hH.js",
+      "PackagePath": "staticwebassets/assets/IndexView-B65q33hH.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-BAzRuWgZ.js",
+      "PackagePath": "staticwebassets/assets/IndexView-BAzRuWgZ.js"
+    },
+    {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-BOAtZLAY.js",
       "PackagePath": "staticwebassets/assets/IndexView-BOAtZLAY.js"
     },
     {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-BWGdtdrn.js",
+      "PackagePath": "staticwebassets/assets/IndexView-BWGdtdrn.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-COCfy_vN.js",
+      "PackagePath": "staticwebassets/assets/IndexView-COCfy_vN.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-CfhE0U59.js",
+      "PackagePath": "staticwebassets/assets/IndexView-CfhE0U59.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-CwHb4geF.js",
+      "PackagePath": "staticwebassets/assets/IndexView-CwHb4geF.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-DR-ufj8Q.js",
+      "PackagePath": "staticwebassets/assets/IndexView-DR-ufj8Q.js"
+    },
+    {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-DXoAzU-w.js",
       "PackagePath": "staticwebassets/assets/IndexView-DXoAzU-w.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-DymP6Yii.js",
+      "PackagePath": "staticwebassets/assets/IndexView-DymP6Yii.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-LG9Sa9Qd.js",
+      "PackagePath": "staticwebassets/assets/IndexView-LG9Sa9Qd.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-WBSmUQst.js",
+      "PackagePath": "staticwebassets/assets/IndexView-WBSmUQst.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-WkrwgS6-.js",
+      "PackagePath": "staticwebassets/assets/IndexView-WkrwgS6-.js"
     },
     {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/IndexView-dfcHQiLi.js",
@@ -29,24 +125,104 @@
       "PackagePath": "staticwebassets/assets/NewView-1cgsPQNK.js"
     },
     {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-B2FPyTBK.js",
+      "PackagePath": "staticwebassets/assets/NewView-B2FPyTBK.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-BINnJx7p.js",
+      "PackagePath": "staticwebassets/assets/NewView-BINnJx7p.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-BQ6hyMNo.js",
+      "PackagePath": "staticwebassets/assets/NewView-BQ6hyMNo.js"
+    },
+    {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-BtCqX3aO.js",
       "PackagePath": "staticwebassets/assets/NewView-BtCqX3aO.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-BuQEREWS.js",
+      "PackagePath": "staticwebassets/assets/NewView-BuQEREWS.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-CNdGVsi-.js",
+      "PackagePath": "staticwebassets/assets/NewView-CNdGVsi-.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-CxXX8mqP.js",
+      "PackagePath": "staticwebassets/assets/NewView-CxXX8mqP.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-D-CaKwtf.js",
+      "PackagePath": "staticwebassets/assets/NewView-D-CaKwtf.js"
     },
     {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-DACLsgaK.js",
       "PackagePath": "staticwebassets/assets/NewView-DACLsgaK.js"
     },
     {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-DFO7RM36.js",
+      "PackagePath": "staticwebassets/assets/NewView-DFO7RM36.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-DmiJ3JSF.js",
+      "PackagePath": "staticwebassets/assets/NewView-DmiJ3JSF.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-DoEllWiQ.js",
+      "PackagePath": "staticwebassets/assets/NewView-DoEllWiQ.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-Gme5-NhT.js",
+      "PackagePath": "staticwebassets/assets/NewView-Gme5-NhT.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/NewView-zMvn_RiR.js",
+      "PackagePath": "staticwebassets/assets/NewView-zMvn_RiR.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-Cs-9-HDs.js",
+      "PackagePath": "staticwebassets/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-Cs-9-HDs.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-CzDt-41B.js",
+      "PackagePath": "staticwebassets/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-CzDt-41B.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-D2YMBHnk.js",
+      "PackagePath": "staticwebassets/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-D2YMBHnk.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-DtPrYNXg.js",
+      "PackagePath": "staticwebassets/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-DtPrYNXg.js"
+    },
+    {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-Dtq1vmHR.js",
       "PackagePath": "staticwebassets/assets/PrimaryButton.vue_vue_type_script_setup_true_lang-Dtq1vmHR.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-B10z64SW.js",
+      "PackagePath": "staticwebassets/assets/index-B10z64SW.js"
     },
     {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-BtBY_pFu.js",
       "PackagePath": "staticwebassets/assets/index-BtBY_pFu.js"
     },
     {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-CD0zBodM.js",
+      "PackagePath": "staticwebassets/assets/index-CD0zBodM.js"
+    },
+    {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-DryAoALE.css",
       "PackagePath": "staticwebassets/assets/index-DryAoALE.css"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-orIYQO2D.js",
+      "PackagePath": "staticwebassets/assets/index-orIYQO2D.js"
+    },
+    {
+      "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/assets/index-pAU4z-eV.js",
+      "PackagePath": "staticwebassets/assets/index-pAU4z-eV.js"
     },
     {
       "Id": "/Users/victorpersonal/Desktop/Projects/bookkeeping-app/wwwroot/favicon.ico",
