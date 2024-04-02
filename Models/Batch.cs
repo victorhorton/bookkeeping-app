@@ -14,6 +14,6 @@ public class Batch
     public int Id { get; set; }
     public string? Name { get; set; }
     public required BatchStatus Status { get; set; }
-    public required ICollection<Transaction> Transactions { get; set; }
+    public ICollection<Transaction>? Transactions { get; set; }
 
 }
