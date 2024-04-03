@@ -26,7 +26,7 @@ namespace bookkeeping_app.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Batch>> GetBatch(int id)
         {
-            var batch = await _context.Batches.Include(b => b.Transactions).ThenInclude(t => t.Entries).FirstOrDefaultAsync(i => i.Id == id);;
+            var batch = await _context.Batches.Include(b => b.Transactions!).ThenInclude(t => t.Entries).FirstOrDefaultAsync(i => i.Id == id);;
 
             if (batch == null)
             {
@@ -62,13 +62,13 @@ namespace bookkeeping_app.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateBatch(int id, [FromBody] Batch updatedBatch)
         {
-            
+
             if (id != updatedBatch.Id)
             {
                 return BadRequest("Batch ID mismatch");
             }
 
-            var existingBatch = await _context.Batches.Include(b => b.Transactions).FirstOrDefaultAsync(b => b.Id == id);
+            var existingBatch = await _context.Batches.Include(b => b.Transactions!).ThenInclude(t => t.Entries).FirstOrDefaultAsync(b => b.Id == id);
 
             if (existingBatch == null)
             {
@@ -81,20 +81,43 @@ namespace bookkeeping_app.Controllers
                 existingBatch.Name = updatedBatch.Name;
                 existingBatch.Status = updatedBatch.Status;
 
-                // Update existing transaction entries
-                foreach (var transaction in updatedBatch.Transactions)
+                if (updatedBatch.Transactions is not null)
                 {
-                    var existingTransaction = existingBatch.Transactions.FirstOrDefault(t => t.Id == transaction.Id);
-                    if (existingTransaction != null)
+                    // Update existing transaction entries
+                    foreach (var transaction in updatedBatch.Transactions)
                     {
-                        existingTransaction.Date = transaction.Date;
-                        // Update other properties as needed
+                        var existingTransaction = existingBatch.Transactions.FirstOrDefault(t => t.Id == transaction.Id);
+                        if (existingTransaction is not null)
+                        {
+                            existingTransaction.Date = transaction.Date;
+                            // Update other properties as needed
+
+                            // Update existing entry entities within the transaction
+                            if (transaction.Entries is not null)
+                            {
+                                foreach (var entry in transaction.Entries)
+                                {
+                                    var existingEntry = existingTransaction.Entries.FirstOrDefault(e => e.Id == entry.Id);
+                                    if (existingEntry is not null)
+                                    {
+                                        existingEntry.Amount = entry.Amount;
+                                        // Update other properties as needed
+                                    }
+                                    else
+                                    {
+                                        // Handle new entry entities
+                                        existingTransaction.Entries.Add(entry);
+                                    }
+                                }
+                            }
+                        }
+                        else
+                        {
+                            // Handle new transaction entries
+                            existingBatch.Transactions.Add(transaction);
+                        }
                     }
-                    else
-                    {
-                        // Handle new transaction entries
-                        existingBatch.Transactions.Add(transaction);
-                    }
+
                 }
 
                 await _context.SaveChangesAsync();

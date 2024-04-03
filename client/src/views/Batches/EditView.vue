@@ -40,6 +40,15 @@ function updateBatch() {
         :key="transaction.id"
         v-model="transaction.date"
       />
+      <template v-for="transaction in batch.transactions" :key="transaction.id">
+        <input
+          type="number"
+          class="p-2 rounded-md border-2 border-black"
+          v-for="entry in transaction.entries"
+          :key="entry.id"
+          v-model="entry.amount"
+        />
+      </template>
       <PrimaryButton innerText="Submit" />
     </form>
     {{ batch }}
