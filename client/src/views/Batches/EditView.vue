@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import router from '@/router'
 import { type Batch } from '@/types/batch'
+import { type Transaction } from '@/types/transaction'
 import axios from 'axios'
 import { onMounted, ref, type Ref } from 'vue'
 import { useRoute } from 'vue-router'
@@ -17,6 +18,13 @@ onMounted(() => {
     }
   })
 })
+
+function addEntry(transaction: Transaction) {
+  transaction.entries.push({
+    amount: 0,
+    accountId: 1
+  })
+}
 
 function updateBatch() {
   if (batch.value) {
@@ -45,9 +53,10 @@ function updateBatch() {
           type="number"
           class="p-2 rounded-md border-2 border-black"
           v-for="entry in transaction.entries"
-          :key="entry.id"
+          :key="entry"
           v-model="entry.amount"
         />
+        <PrimaryButton type="button" @click="addEntry(transaction)" innerText="Add Transaction" />
       </template>
       <PrimaryButton innerText="Submit" />
     </form>

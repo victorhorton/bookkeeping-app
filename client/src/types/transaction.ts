@@ -1,4 +1,4 @@
-import type { Entry } from './entry'
+import type { Entry, NewEntry } from './entry'
 
 type NewTransaction = {
   date: Date
@@ -7,7 +7,7 @@ type NewTransaction = {
 type Transaction = {
   id: number
   date: Date
-  entries: Entry[]
+  entries: (Entry | NewEntry)[]
 }
 
 export type { NewTransaction, Transaction }
