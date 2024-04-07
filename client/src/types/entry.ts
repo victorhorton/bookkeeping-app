@@ -1,4 +1,5 @@
 type NewEntry = {
+  id?: number
   amount: number
   accountId: number
 }

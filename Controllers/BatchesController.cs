@@ -86,9 +86,10 @@ namespace bookkeeping_app.Controllers
                     // Update existing transaction entries
                     foreach (var transaction in updatedBatch.Transactions)
                     {
-                        var existingTransaction = existingBatch.Transactions.FirstOrDefault(t => t.Id == transaction.Id);
+                        var existingTransaction = existingBatch.Transactions?.FirstOrDefault(t => t.Id == transaction.Id);
                         if (existingTransaction is not null)
                         {
+                            existingTransaction.CompanyId = transaction.CompanyId;
                             existingTransaction.Date = transaction.Date;
                             // Update other properties as needed
 
@@ -97,16 +98,17 @@ namespace bookkeeping_app.Controllers
                             {
                                 foreach (var entry in transaction.Entries)
                                 {
-                                    var existingEntry = existingTransaction.Entries.FirstOrDefault(e => e.Id == entry.Id);
+                                    var existingEntry = existingTransaction.Entries?.FirstOrDefault(e => e.Id == entry.Id);
                                     if (existingEntry is not null)
                                     {
+                                        existingEntry.AccountId = entry.AccountId;
                                         existingEntry.Amount = entry.Amount;
                                         // Update other properties as needed
                                     }
                                     else
                                     {
                                         // Handle new entry entities
-                                        existingTransaction.Entries.Add(entry);
+                                        existingTransaction.Entries?.Add(entry);
                                     }
                                 }
                             }
@@ -114,7 +116,7 @@ namespace bookkeeping_app.Controllers
                         else
                         {
                             // Handle new transaction entries
-                            existingBatch.Transactions.Add(transaction);
+                            existingBatch.Transactions?.Add(transaction);
                         }
                     }
 
